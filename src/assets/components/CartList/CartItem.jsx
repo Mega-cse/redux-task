@@ -33,7 +33,8 @@ const CartItem = ({ item, updateQuantity, removeItem }) => {
                 </option>
               ))}
             </select>
-            <button onClick={() => removeItem(item.id)}>Remove</button>
+            <button onClick={() => removeItem(item.id)}><img src="https://www.shutterstock.com/image-vector/trash-can-icon-symbol-delete-260nw-1454137346.jpg"className='image'></img></button>
+         
           </div>
         </div>
       </div>
